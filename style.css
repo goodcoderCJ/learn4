@@ -290,9 +290,87 @@ header a:hover {
 .learner-goals {
   height: 60vh;
   padding: 0 1em;
+  color: rgb(36, 35, 35);
+  background-color: rgb(243, 238, 238);
+  margin-top: 4em;
+}
+.goal-heading {
+  font-size: 1rem;
+  padding-top: 3em;
+}
+.learners-goal-cards {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+.goal-card {
+  height: 50vh;
+  width: 31vw;
+  border: 1px solid rgb(170, 168, 168);
+  background-color: white;
+  padding: 1em;
+}
+.quotation-mark {
+  font-size: 3rem;
+  font-weight: bold;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+blockquote {
+  margin-bottom: 2em;
+}
+.first-wrap {
+  height: 35vh;
+  border-bottom: 2px solid rgb(209, 207, 207);
+}
+.second-wrap {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: blueviolet;
+  font-weight: bold;
+}
+.play-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6vw;
+  aspect-ratio: 1;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+.play-icon-div img {
+  width: 10px;
+  height: 10px;
+  filter: invert(90%) saturate(100%);
+}
+.second-wrap p {
+  width: 70vw;
+  margin-left: 0.5em;
 }
 
-.icon-wrap img {
-  width: 12px;
-  height: 12px;
+.persona {
+  display: flex;
+  align-items: center;
+}
+.abbr {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 0.8rem;
+  background-color: rgb(0, 0, 0);
+}
+.abbr-name {
+  margin-left: 0.5em;
+  font-size: 0.7rem;
+  font-weight: 900;
 }
